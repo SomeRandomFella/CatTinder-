@@ -35,7 +35,7 @@ body {
 }
 
 .friend1 {
-  background-color: rgb(183, 12, 199);
+  background-color: rgb(56, 148, 235);
   color: white;
   border: none;
   margin-left: 6px;
@@ -170,7 +170,7 @@ body {
 
 .top-bar {
   width: 100%;
-  background-color: rgb(121, 27, 165);
+  background-color: rgb(98, 177, 252);
   display: flex;
 }
 
@@ -187,14 +187,15 @@ body {
   font-size: 16px;
   width: 400px;
   height: 40px;
-  margin-top: 40px;
-  margin-left: 20px;
   border-radius: 10px;
   padding-right: 300px;
+  margin-top: 34px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .search-bar:focus {
-  outline: solid 2px rgb(226, 29, 216);
+  outline: solid 2px rgb(54, 19, 212);
 }
 
 .copyright {
@@ -253,4 +254,62 @@ body {
 
 .friend-info3 {
   display: flex;
+}
+
+.your-friends {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  height: 75px;
+  width: 75px;
+  margin-top: 26px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.friends {
+  height: 40px;
+  width: 40px;
+}
+
+.your-friends:hover {
+  opacity: 0.7;
+}
+
+.your-friends:active {
+  transform: translateY(1px);
+}
+
+.friends-text {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.searcb-bar-container {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.search-icon {
+  height: 40px;
+  width: 40px;
+  margin-top: 34px;
+  background-color: white;
+  border: solid 2px black;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.8s ease;
+}
+
+.search-icon:hover {
+  box-shadow: 0px 2px 5px rgb(44, 44, 44);
+}
+
+.search-icon:active {
+  transform: translateY(1px);
 }
